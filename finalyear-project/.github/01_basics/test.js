@@ -10,3 +10,12 @@ console.log(s2)//another difference is that
 console.log(myAr)//for slice it does not affect the original data and just displayed the number between the given range
 console.log(myArr)
 //where as splice removed the range of numbers that came in as output of splice from original data thus original data is affected
+const array1 = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const array2= array1.flat(Infinity) //speards out the data
+console.log(array2)
+const sc1=100
+const sc2=200
+const sc3=300 
+console.log(Array.of(sc1,sc2,sc3))//also converts into array
+console.log(Array.from("hitesh"))//coverts into string
+console.log(Array.from({name:"hitesh"}))//interesting gives empty array - []
