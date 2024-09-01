@@ -83,3 +83,6 @@ setInterval(function () {
   clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
 ```
+
+Javascript is a sequential running program. Event propogation in events runs the event in a bubble up fashion suppose if you have ul list inside and a owl image inside it. You provide  same click events for ul and owl images the owl event will exceute first then ul event.
+If you pass the third parameter of the addEventListener as true then capturing mode will be activated where the ul event executes first and then the owl event, by default the third paramater of addEventLIstener is false. alse the eventname.stopPropogation() also helps to stop the process of bubbling up. 
