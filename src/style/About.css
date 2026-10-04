@@ -1,0 +1,50 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh; 
+  background-image: url('../asset//image/about.jpg');
+  background: ('src\asset\image\h2.png'); 
+  background-size:auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.about-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  width:800px;
+  height:350px;
+  box-sizing: border-box;
+}
+
+.About h2 {
+  margin-bottom: 20px;
+
+}
+
+.About p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: antiquewhite;
+  
+}
+
+.Thanking{
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 20px;
+  width:800px;
+  height:300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.Thanking p{
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: antiquewhite;
+}
